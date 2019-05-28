@@ -56,4 +56,7 @@ class Owner
     "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
   end
 
+  def say_species
+    "I am a #{species}."
+  end
 end
